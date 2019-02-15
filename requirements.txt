@@ -1,5 +1,4 @@
 rlp
 eth_utils
-two1
 pycrypto
 pycryptodome

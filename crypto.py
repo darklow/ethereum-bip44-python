@@ -8,9 +8,9 @@ import hashlib
 import hmac
 from mnemonic.mnemonic import Mnemonic
 import random
-from two1.bitcoin.utils import bytes_to_str
-from two1.bitcoin.utils import address_to_key_hash
-from two1.bitcoin.utils import rand_bytes
+from two1.utils import bytes_to_str
+from two1.utils import address_to_key_hash
+from two1.utils import rand_bytes
 from two1.crypto.ecdsa_base import Point
 from two1.crypto.ecdsa import ECPointAffine
 from two1.crypto.ecdsa import secp256k1

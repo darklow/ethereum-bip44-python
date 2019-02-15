@@ -3,15 +3,15 @@ Ethereum BIP44 Python
 
 **Forked from https://github.com/michailbrynard/ethereum-bip44-python**
 
-Just added `setup.py` in order to be able to install via pip:
+Added `setup.py` in order to be able to install via pip:
 
 ```
 pip install git+https://github.com/tschubotz/ethereum-bip44-python
 ```
 
-Readme from original repo:
+Removed `two1` lib dependency due to too old lib versions.
 
-*Code adapted from two1 library for bitcoin by 21 Inc. (https://github.com/21dotco/two1-python/tree/master/two1)
+Readme from original repo:
 
 ### Requirements
 Python packages:  
