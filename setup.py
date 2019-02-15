@@ -13,5 +13,6 @@ setup(
         'pycrypto',
         'pycryptodome',
         'base58',
+        'mnemonic',
     ],
 )
