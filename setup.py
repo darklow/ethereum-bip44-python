@@ -12,5 +12,6 @@ setup(
         'eth-utils',
         'pycrypto',
         'pycryptodome',
+        'base58',
     ],
 )
