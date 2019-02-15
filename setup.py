@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'rlp',
-        'eth-utils,
+        'eth-utils',
         'pycrypto',
         'pycryptodome',
     ],
