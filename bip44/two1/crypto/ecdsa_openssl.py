@@ -6,9 +6,9 @@ from ctypes import c_char_p
 from ctypes import c_void_p
 from ctypes import create_string_buffer
 
-from two1.crypto.ecdsa_base import EllipticCurveBase
-from two1.crypto.ecdsa_base import Point
-from two1.crypto import openssl as ossl
+from .ecdsa_base import EllipticCurveBase
+from .ecdsa_base import Point
+from . import openssl as ossl
 
 
 class ECPointAffine(object):
