@@ -10,7 +10,6 @@ setup(
     install_requires=[
         'rlp',
         'eth-utils',
-        'pycrypto',
         'pycryptodome',
         'base58',
         'mnemonic',
